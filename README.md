@@ -339,6 +339,8 @@ Potential improvements for version 2.0:
 - [ ] **Collaboration**: Share tasks with team members
 - [ ] **Sync**: Cloud synchronization across devices
 - [ ] **Offline Mode**: Service worker for offline functionality
+- [ ] **Timers**: Add countdown timer
+
 
 ## 🙏 Acknowledgments
 
