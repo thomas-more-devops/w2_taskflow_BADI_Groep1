@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Dit is een comment -->
     <div class="container">
         <header class="header">
             <div class="header-content">
@@ -24,6 +23,13 @@
             <div class="task-input-section">
                 <div class="input-container">
                     <input type="text" id="taskInput" placeholder="What needs to be done?" class="task-input">
+                    <div class="input-options">
+                        <select id="prioritySelect" class="priority-select">
+                            <option value="medium">Medium Priority</option>
+                            <option value="high">High Priority</option>
+                            <option value="low">Low Priority</option>
+                        </select>
+                    </div>
                     <button id="addTaskBtn" class="add-btn">
                         <span class="add-icon">+</span>
                         Add Task
@@ -46,7 +52,6 @@
                 </div>
             </div>
 
-            <!-- Dit is het statistics gedeelte -->
             <div class="stats-section">
                 <div class="stats-grid">
                     <div class="stat-card">
@@ -60,6 +65,10 @@
                     <div class="stat-card">
                         <span class="stat-number" id="pendingTasks">0</span>
                         <span class="stat-label">Pending</span>
+                    </div>
+                    <div class="stat-card priority-stats">
+                        <span class="stat-number" id="highPriorityTasks">0</span>
+                        <span class="stat-label">High Priority</span>
                     </div>
                 </div>
             </div>
